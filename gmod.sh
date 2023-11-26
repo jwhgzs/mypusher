@@ -4,10 +4,5 @@ token=`cat "$sdir/config/token.txt"`
 user=`cat "$sdir/config/user.txt"`
 repo="${PWD##*/}"
 url="https://${token}@github.com/${user}/${repo}.git"
-git init
-git remote add origin "${url}"
-git rm -r --cached .
-git add . -A
-git commit -m "upload"
-git push -u origin master
+git remote set-url origin "${url}"
 echo "* Complete!"
