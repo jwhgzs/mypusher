@@ -5,5 +5,6 @@
     * Put your Github `Personal access token` into `token.txt`.
 * Then use it! (`cd` into your repo folder, then do something like `../mypusher/ginit.sh` to use)
     * `ginit.sh` to initialize git.
+    * `gmod.sh` to update your repo url.
     * `gpush.sh` to push to Github.
     * `npush.sh [version-increasing-level]` to push to NPM & Github.
