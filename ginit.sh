@@ -9,5 +9,5 @@ git remote add origin "${url}"
 git rm -r --cached .
 git add . -A
 git commit -m "upload"
-git push -u origin master
+git push --force
 echo "* Complete!"

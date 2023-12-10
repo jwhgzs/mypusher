@@ -7,5 +7,5 @@ fi
 git rm -r --cached .
 git add . -A
 git commit -m "upload"
-git push
+git push --force
 echo "* Complete!"
